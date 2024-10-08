@@ -16,7 +16,7 @@ const HomePage = async () => {
       endpoint: "blog",
       queries: {
         orders: "-publishedAt",
-        limit: 10,
+        limit: 12,
       },
     }),
 
