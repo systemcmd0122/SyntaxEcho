@@ -97,7 +97,7 @@ const Sidebar = () => {
         <div className="p-4 border-b">
           <div className="flex items-center space-x-2 font-semibold">
             <NewspaperIcon className="h-5 w-5 text-purple-500" />
-            <span>新着記事</span>
+            <span>新着解説記事</span>
           </div>
         </div>
         <div className="divide-y">
@@ -135,7 +135,7 @@ const Sidebar = () => {
         <div className="p-4 border-b">
           <div className="flex items-center space-x-2 font-semibold">
             <Folder className="h-5 w-5 text-purple-500" />
-            <span>カテゴリ</span>
+            <span>プログラミング言語 & カテゴリ</span>
           </div>
         </div>
         <div className="p-4">

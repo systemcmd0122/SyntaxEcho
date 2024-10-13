@@ -39,7 +39,7 @@ const TopList = ({
   return (
     <div className="space-y-10">
       <div className="flex items-center justify-between border rounded-lg overflow-hidden shadow-md">
-        {["新着", "オススメ", "特集"].map((buttonText) => (
+        {["新着解説", "オススメ解説", "特集解説"].map((buttonText) => (
           <motion.button
             key={buttonText}
             className="py-3 px-4 text-center flex-1 text-sm font-bold transition-colors duration-200 ease-in-out"
